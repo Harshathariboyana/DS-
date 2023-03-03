@@ -1,0 +1,47 @@
+#include <stdio.h>
+int main ()
+{
+    int i,n,data,a[i];
+    printf ("enter number of elements of array");
+    scanf ("%d",&n);
+    int a[n];
+    printf ("enter the elements");
+    for (i=0;i<n;i++)
+    scanf ("%d",&a[i]);
+    printf ("enter the data to search");
+    scanf ("%d",&data);
+    for (i=0;i<n;++i)
+    if (a[i]==data);
+    {
+        printf ("iteam is found");
+        break;
+    }
+    if (i==n)
+    printf ("iteam does not exist");
+}
+{
+    if (i==0&& i==1)
+    {
+        f=1;
+    }
+    else if (i>=1 && i<n-1)
+    {
+        f=2;
+    }
+    if (f==1)
+    {
+        printf ("best case");
+    }
+    else if (f==2)
+    {
+        printf ("averge case");
+    }
+    else
+    {
+        printf ("wost case");
+    }
+    return 0;
+}
+    
+    
+   
